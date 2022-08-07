@@ -1,9 +1,12 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Mali:wght@300&family=Poiret+One&family=Poppins:wght@400;500;600&display=swap');
+
 *{ margin: 0; padding: 0; box-sizing: border-box;}
 html{
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 ::-webkit-scrollbar{
     width: .5rem;
@@ -17,10 +20,57 @@ html{
     background-color: rgb(187, 208, 240);
 }
 
+.txt1 {
+    font-family: 'Fredoka One', cursive;
+}
+.txt2 {
+    font-family: 'Mali', cursive;
+}
+.txt3 {
+    font-family: 'Poiret One', cursive;
+}
+.txt4 {
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
-    /* background-color: rgb(174, 240, 218); */
+    background-color: #e3f2fd;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    min-width: 100vw;
+}
+
+.box {
+    width: fit-content;
+    height: auto;
+} 
+
+.image-size {
+    width: 40rem;
+    height: 38rem;
+}
+
+
+@media only screen and (max-width: 640px) {
+    .box {
+        min-height: 100vh;
+        min-width: 100vw;    
+    }
+    .image-size {
+        width: 95vw;
+        height: 95vw;
+    }
+}
+
+@media only screen and (min-width: 640px) {
+    .box {
+        width: fit-content;
+        height: auto;
+    } 
+    .image-size {
+        width: 40rem;
+        height: 38rem;
+    }
 }
