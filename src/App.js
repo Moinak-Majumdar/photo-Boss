@@ -5,6 +5,7 @@ import { Button, createTheme, ThemeProvider, Typography } from '@mui/material';
 import { Upload, Refresh, SaveAlt } from '@mui/icons-material'
 import { Slide } from './components/Slide'
 import { Choice } from './components/Choice';
+import { About } from './components/About';
 import { data } from './components/presetData'
 import { TbFlipHorizontal, TbFlipVertical } from 'react-icons/tb'
 import { AiOutlineRotateLeft, AiOutlineRotateRight } from 'react-icons/ai'
@@ -164,7 +165,8 @@ function App() {
         {/* hl7 image part */}
         <section className='h-auto min-w-full rounded-sm flex flex-col z-10'>
           <input hidden type="file" ref={imgRef} accept="image/*" name="image-upload" id="input" onChange={(e) => {setImg(e.target.files[0])}}/>
-          <div className="min-w-full flex justify-end flex-row bg-gradient-to-b from-slate-400 to-slate-100 p-1">
+          <div className="min-w-full relative flex justify-end flex-row bg-gradient-to-b from-slate-400 to-slate-100 p-1">
+            <About/>
             <div className="md:m-2 m-1">
               <Button color="error" variant='contained' onClick={handelReset} disabled={disable}><Refresh/></Button>            
             </div>
