@@ -35,11 +35,10 @@ export const About = () => {
                 </DialogTitle>
                 <DialogContent>
                     <p className='txt4 text-lg'>
-                        Basic photo editor but, 
-                        <br/>better than adobe photoshop 🤛
+                        Hello end user, if you are reading this, please do not expect damm! from this app. I don't know much about image processing and it's very hard to apply those bookish theories using javascript only. I learned about image processing in my last semester and the basic idea was that to apply this knowledge into something. I created few preset filters and custom editing options for user and rotate and flip image feature, cropping will be added as future update. Stay happy, Enjoy... 😄
                     </p>
                     <h1 className='txt2 mt-4 font-bold text-xl'>
-                        Created by Moinak Majumdar 🥺 with 0 image processing knowledge.
+                        Created by Moinak Majumdar 🥺 with 💩 image processing knowledge.
                     </h1>
                 </DialogContent>
                 <DialogActions>

@@ -1,25 +1,52 @@
 {
   "short_name": "Photo Boss",
   "name": "Photo Boss",
-  "description": "Basic photo editor but, better than adobe photoshop",
+  "description": "Hello end user, if you are reading this, please do not expect damm! from this app. I don't know much about image processing and it's very hard to apply those bookish theories using javascript only. I learned about image processing in my last semester and the basic idea was that to apply this knowledge into something. I created few preset filters and custom editing options for user and rotate and flip image feature, cropping will be added as future update. Stay happy, Enjoy... 😄",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "48x48",
-      "type": "image/x-icon"
+      "src": "icon/logo192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "maskable"
     },
     {
-      "src": "logo192.png",
+      "src": "icon/logo512.png",
       "type": "image/png",
-      "sizes": "192x192"
+      "sizes": "512x512",
+      "purpose": "maskable"
     },
     {
-      "src": "logo512.png",
+      "src": "icon/logo192.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "192x192",
+      "purpose": "any"
+    },
+    {
+      "src": "icon/logo512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "any"
     }
   ],
-    "start_url": ".",
+  "screenshots": [
+    {
+      "src": "screenshot/Screenshot1.png",
+      "type": "image/png",
+      "sizes": "540x1063"
+    },
+    {
+      "src": "screenshot/Screenshot2.png",
+      "type": "image/png",
+      "sizes": "540x1062"
+    },
+    {
+      "src": "screenshot/Screenshot2.png",
+      "type": "image/png",
+      "sizes": "540x1062"
+    }
+  ],
+    "start_url": "/",
+    "id":"/",
     "display": "standalone",
     "theme_color": "#000000",
     "background_color": "#e3f2fd"
