@@ -1,4 +1,3 @@
-import React from 'react'
 import { Slider, ThemeProvider, createTheme } from '@mui/material'
 
 const theme = createTheme ({

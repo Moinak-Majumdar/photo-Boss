@@ -1,4 +1,4 @@
-import React, { useState, forwardRef, useImperativeHandle }  from 'react'
+import { useState, forwardRef, useImperativeHandle }  from 'react'
 
 export const InputImg = forwardRef (({file, style, rotate, horFlip, verFlip}, ref ) => {
 

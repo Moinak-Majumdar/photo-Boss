@@ -1,4 +1,3 @@
-import React from 'react'
 import { Button, ThemeProvider, createTheme } from '@mui/material'
 
 const theme = createTheme ({
@@ -25,7 +24,7 @@ const theme = createTheme ({
 export const Choice = ({choice}) => {
 
     return (
-        <section className='min-w-full px-2 py-4 bg-gradient-to-r from-indigo-400 to-slate-100 flex justify-end'>
+        <section className='min-w-full rounded-xl px-2 py-4 bg-gradient-to-r from-indigo-400 to-slate-100 flex justify-end'>
             <ThemeProvider theme={theme}>
                 <div className='md:m-2 m-1'>
                     <Button  variant='contained' color='fuchsia' onClick={() => {choice('preset')}}>presets</Button>

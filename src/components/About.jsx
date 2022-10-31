@@ -1,14 +1,14 @@
-import React from 'react'
+import {useState, forwardRef} from 'react'
 import { Dialog, DialogContent, DialogActions, DialogTitle, Slide, Button } from '@mui/material'
 
-const Transition = React.forwardRef(function Transition(props, ref) {
+const Transition = forwardRef(function Transition(props, ref) {
     return <Slide direction="up" ref={ref} {...props} />;
 });
   
 
 export const About = () => {
 
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
 
     const handleClickOpen = () => {
         setOpen(true);
@@ -21,7 +21,7 @@ export const About = () => {
     return (
         <>
             <div className='absolute top-0 left-0'>
-                <button onClick={handleClickOpen} className='txt1 ml-4 mt-2 text-3xl text-indigo-600'>Photo Boss</button>
+                <button onClick={handleClickOpen} className='txt1 ml-4 mt-2 text-2xl md:text-3xl text-indigo-600'>Photo Boss</button>
             </div>
             <Dialog
                 open={open}
