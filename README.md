@@ -1,4 +1,4 @@
-Photo Boss is a mobile optimize photo editor PAW (progressive web app). But the beauty of this editor is the responsive design because of that it is suitable for small to extra large device.
+Photo Boss is a mobile optimize photo editor PWA (progressive web app). But the beauty of this editor is the responsive design because of that it is suitable for small to extra large device.
 
 <b>Motivation :</b> I learned about image processing in 6th sem of my B.Sc course and the basic idea was that to apply this knowledge into something. I created few preset filters and custom editing options for user and rotate and flip image feature.
 
